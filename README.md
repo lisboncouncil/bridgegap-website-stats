@@ -76,16 +76,6 @@ Distributions describing how engaged the audience was: how often visitors return
 
 Conversion data: aggregate goal performance, monthly trend, and the standard time-to-conversion and visits-to-conversion distributions. The definitions of the goals themselves are in `config_goals.json` (see below).
 
-### Configuration files (JSON)
-
-These files are not analytics output: they document **how Matomo was set up** for this site. They are essential context for interpreting the CSV files and for any forensic question that may come up later.
-
-* `config_site.json`: site metadata (timezone, currency, URL aliases, excluded IPs, excluded query parameters, and so on).
-* `config_goals.json`: full definition of every conversion goal (matching rules, revenue values, attribution mode).
-* `config_custom_dimensions.json`: any custom dimensions defined at site or visit scope.
-* `config_segments.json`: saved segments shared by users on this site.
-* `config_users_access.json`: who had which level of access to the site at the time of export.
-
 ### Integrity files
 
 * `MANIFEST.txt`: human-readable summary of the export (site, range, export timestamp, file count, total size, full SHA-256 checksum table).
