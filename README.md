@@ -122,4 +122,4 @@ All CSV files are UTF-8 encoded with comma separators and a header row. They ope
 
 ## Contact
 
-For questions about this archive, the export procedure, or the historical Matomo configuration, please contact the IT team at The Lisbon Council (BridgeGap project coordinator).
+For questions about this archive, the export procedure, or the historical Matomo configuration, please contact the IT team at The Lisbon Council.
